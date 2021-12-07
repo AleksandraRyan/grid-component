@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://flamboyant-payne-fe8372.netlify.app/)
+- Live Site URL: (https://flamboyant-payne-fe8372.netlify.app/)
 
 ## My process
 
