@@ -15,17 +15,17 @@ body {
 /* Wrapper */
 .container {
   text-align: center;
-  margin: 30px;
+  max-width: 636px;
+  margin: 160px auto;
 }
 
 /* Header */
 header {
-  width: 90%;
   text-align: left;
   background: #fff;
   color: var(--secondary-bg-color);
   border-radius: 0.5em 0.5em 0 0;
-  padding: 2em;
+  padding: 1em;
 }
 
 header h2 {
@@ -41,7 +41,6 @@ header h4 {
 header p {
   color: var(--secondary-bg-color);
   font-size: 15px;
-  max-width: 80%;
   line-height: 1.4;
 }
 
@@ -94,7 +93,7 @@ main .btn:hover {
 
 .box1 {
   width: 50%;
-  padding: 1.2em;
+  padding: 1em;
   background: var(--primary-color);
   text-align: left;
   border-bottom-left-radius: 0.5em;
@@ -104,7 +103,7 @@ main .btn:hover {
   background: hsl(179, 62%, 43%, 0.8);
   border-bottom-right-radius: 0.5em;
   text-align: left;
-  padding: 2em;
+  padding: 1em;
   width: 50%;
 }
 
@@ -124,26 +123,26 @@ footer {
   padding: 20px 0;
 }
 
-@media (min-width: 600px) {
-  .container {
-    width: 636px;
-    margin: 160px auto;
-  }
-}
-
 @media (max-width: 560px) {
   .container {
-    max-width: 100%;
+    max-width: 353px;
     margin: 30px auto;
   }
 
+  header {
+    width: 400px;
+    margin-left: -40px;
+  }
+
   .box1 {
-    width: 90%;
+    width: 100%;
     padding-left: 60px;
+    border-bottom-left-radius: 0;
   }
   .box2 {
-    width: 90%;
+    width: 100%;
     padding-left: 60px;
+    border-bottom-left-radius: 0.5em;
   }
 
   main {
