@@ -123,14 +123,14 @@ footer {
   padding: 20px 0;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 560px) {
   .container {
-    max-width: 350px;
+    max-width: 315px;
     margin: 30px auto;
   }
 
   header {
-    width: 395px;
+    width: 400px;
     margin-left: -40px;
   }
 
